@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </nav>
+  <div class="hero-content">
+      <h1>Hello, I'm Abhishek Tripathi, a Web Developer</h1>
+      <p class="typing"></p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="about" class="about section">
+      <h2>About Me</h2>
+      <p>My name is Abhishek Tripathi. I am a passionate web developer with experience in building responsive and modern websites. I specialize in creating engaging user experiences and clean, efficient code.</p>
+    </section>
+
+    <section id="skills" class="skills section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects section">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>3D-simulation-of-the-solar-system.</p>
+          <a href="https://github.com/aabhishekk01/3D-simulation-of-the-solar-system.git" target="_blank" rel="noopener">View Project</a>
+        </article>
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>To-Do-List</To-Do-List>.</p>
+          <a href="https://github.com/aabhishekk01/To-do-list.git" target="_blank" rel="noopener">View Project</a>
+        </article>
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>Naresh-Institute-And-Technologies.</p>
+          <a href="https://github.com/aabhishekk01/Naresh-Institute-And-Technologies.git" target="_blank" rel="noopener">View Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2>Contact Me</h2>
+
+      <form id="contact-form" action="#" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MyPortfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
